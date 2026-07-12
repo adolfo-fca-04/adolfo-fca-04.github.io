@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adolfo Cancho | Desarrollador de Software & IA</title>
+    <!-- Tailwind CSS desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Lucide Icons para los iconos -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-900">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                Adolfo Cancho
+            </span>
+            <div class="flex space-x-6 text-sm font-medium text-slate-400">
+                <a href="#sobre-mi" class="hover:text-cyan-400 transition-colors">Sobre mí</a>
+                <a href="#conocimientos" class="hover:text-cyan-400 transition-colors">Conocimientos</a>
+                <a href="#proyectos" class="hover:text-cyan-400 transition-colors">Proyectos</a>
+                <a href="#contacto" class="hover:text-cyan-400 transition-colors">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / El "Hook" -->
+    <header class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32 flex flex-col justify-center min-h-[calc(100vh-4rem)]">
+        <p class="text-cyan-400 font-mono text-sm mb-3 tracking-wide">Hola, mi nombre es</p>
+        <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight mb-4">
+            Adolfo Fabian Cancho Alberca.
+        </h1>
+        <h2 class="text-3xl sm:text-5xl font-bold text-slate-400 mb-6">
+            Estudiante de Ingeniería de Software e IA.
+        </h2>
+        <p class="max-w-2xl text-slate-400 text-base sm:text-lg mb-10 leading-relaxed">
+            Actualmente curso el quinto semestre de la formación técnica en <span class="text-slate-200 font-semibold">SENATI</span>. Tengo sólidos fundamentos en programación, bases de datos y metodologías ágiles. Busco una oportunidad para realizar mis prácticas profesionales, aportar valor y seguir desarrollándome en el área tecnológica.
+        </p>
+        <div class="flex flex-wrap gap-4">
+            <a href="#contacto" class="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-semibold rounded-lg hover:opacity-90 transition-opacity shadow-lg shadow-cyan-500/20">
+                Contactar para Prácticas
+            </a>
+            <a href="#proyectos" class="px-6 py-3 bg-slate-800 text-slate-200 font-semibold rounded-lg border border-slate-700 hover:bg-slate-700 transition-colors">
+                Ver mis proyectos
+            </a>
+        </div>
+    </header>
+
+    <!-- Sobre Mí / Experiencia -->
+    <section id="sobre-mi" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-800">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="md:col-span-1">
+                <h3 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <i data-lucide="user" class="text-cyan-400 w-6 h-6"></i> Perfil & Trayectoria
+                </h3>
+                <p class="text-slate-400 text-sm mt-2">Mi formación académica y habilidades interpersonales.</p>
+                
+                <div class="mt-6 space-y-2">
+                    <div class="bg-slate-800/40 p-3 rounded-lg border border-slate-800/80 text-sm">
+                        <span class="text-cyan-400 font-semibold block mb-1">Aptitudes Clave</span>
+                        <p class="text-slate-400">Responsabilidad, Proactividad, Trabajo en equipo y Tolerancia a la presión.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:col-span-2 space-y-8">
+                <!-- Educación -->
+                <div>
+                    <h4 class="text-lg font-semibold text-slate-200 mb-4 flex items-center gap-2">
+                        <i data-lucide="graduation-cap" class="text-cyan-400 w-5 h-5"></i> Educación
+                    </h4>
+                    <div class="border-l-2 border-slate-800 pl-4 space-y-6">
+                        <div>
+                            <span class="text-xs font-mono text-cyan-400">2023 - Actualidad</span>
+                            <h5 class="text-white font-medium text-base">Ingeniería de Software e Inteligencia Artificial (Técnico)</h5>
+                            <p class="text-slate-400 text-sm">SENATI — Actualmente en el 5° Semestre</p>
+                        </div>
+                        <div>
+                            <span class="text-xs font-mono text-slate-500">2011 - 2021</span>
+                            <h5 class="text-slate-300 font-medium text-sm">Educación Secundaria Completa</h5>
+                            <p class="text-slate-500 text-sm">I.E. 1267 La Campiña</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiencia -->
+                <div>
+                    <h4 class="text-lg font-semibold text-slate-200 mb-4 flex items-center gap-2">
+                        <i data-lucide="briefcase" class="text-cyan-400 w-5 h-5"></i> Experiencia Complementaria
+                    </h4>
+                    <div class="border-l-2 border-slate-800 pl-4">
+                        <span class="text-xs font-mono text-cyan-400">Covisian (4 meses)</span>
+                        <h5 class="text-white font-medium text-base">Teleoperador - Área de Retenciones Inbound</h5>
+                        <p class="text-slate-400 text-sm mb-2">Gestión de retenciones, fidelización y cumplimiento de KPIs bajo presión.</p>
+                        <p class="text-slate-500 text-xs italic">Desarrollo avanzado de habilidades blandas: comunicación asertiva, empatía y resolución de problemas bajo ambientes exigentes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conocimientos Técnicos -->
+    <section id="conocimientos" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-800">
+        <h3 class="text-2xl font-bold text-white mb-2 flex items-center gap-2">
+            <i data-lucide="code-2" class="text-cyan-400 w-6 h-6"></i> Stack Tecnológico
+        </h3>
+        <p class="text-slate-400 text-sm mb-10">Herramientas y tecnologías que manejo y aplico en mis soluciones.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Lenguajes -->
+            <div class="bg-slate-800/40 p-5 rounded-xl border border-slate-800 hover:border-slate-700/80 transition-colors">
+                <span class="text-xs font-mono text-cyan-400 block mb-3 uppercase tracking-wider">Lenguajes</span>
+                <ul class="space-y-2 text-slate-300 font-medium">
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Python</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Java</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> JavaScript</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> PHP</li>
+                </ul>
+            </div>
+            <!-- Desarrollo Web & BD -->
+            <div class="bg-slate-800/40 p-5 rounded-xl border border-slate-800 hover:border-slate-700/80 transition-colors">
+                <span class="text-xs font-mono text-cyan-400 block mb-3 uppercase tracking-wider">Frontend & Datos</span>
+                <ul class="space-y-2 text-slate-300 font-medium">
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> HTML5 / CSS3</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Gestión de DB Relacionales</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Lenguaje SQL</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> MySQL Workbench</li>
+                </ul>
+            </div>
+            <!-- Ing de Software -->
+            <div class="bg-slate-800/40 p-5 rounded-xl border border-slate-800 hover:border-slate-700/80 transition-colors">
+                <span class="text-xs font-mono text-cyan-400 block mb-3 uppercase tracking-wider">Ingeniería</span>
+                <ul class="space-y-2 text-slate-300 font-medium">
+                    <li class="text-sm">Fundamentos de Ing. de Software</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Scrum (Ágil)</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Modelado UML</li>
+                </ul>
+            </div>
+            <!-- Herramientas -->
+            <div class="bg-slate-800/40 p-5 rounded-xl border border-slate-800 hover:border-slate-700/80 transition-colors">
+                <span class="text-xs font-mono text-cyan-400 block mb-3 uppercase tracking-wider">Entorno & Tools</span>
+                <ul class="space-y-2 text-slate-300 font-medium">
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Git & GitHub</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> VS Code</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Entornos Linux (RHEL)</li>
+                    <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Comandos de Consola</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos (Espacio para rellenar) -->
+    <section id="proyectos" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-800">
+        <h3 class="text-2xl font-bold text-white mb-2 flex items-center gap-2">
+            <i data-lucide="folder-git-2" class="text-cyan-400 w-6 h-6"></i> Proyectos Destacados
+        </h3>
+        <p class="text-slate-400 text-sm mb-10">Una muestra de mis capacidades mediante proyectos prácticos académicos y personales.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Proyecto Ejemplo 1 -->
+            <div class="bg-slate-800/20 rounded-xl p-6 border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i data-lucide="folder" class="text-cyan-400 w-10 h-10"></i>
+                        <div class="flex space-x-3 text-slate-400">
+                            <a href="#" class="hover:text-white transition-colors"><i data-lucide="github" class="w-5 h-5"></i></a>
+                            <a href="#" class="hover:text-white transition-colors"><i data-lucide="external-link" class="w-5 h-5"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Sistema de Gestión Escolar / CRUD</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Aplicación de escritorio/web desarrollada para gestionar matrículas y reportes. Implementa modelado UML y arquitectura orientada a objetos.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-400 mt-4">
+                    <span>Java / Python</span>
+                    <span>MySQL</span>
+                    <span>UML</span>
+                </div>
+            </div>
+
+            <!-- Proyecto Ejemplo 2 -->
+            <div class="bg-slate-800/20 rounded-xl p-6 border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i data-lucide="folder" class="text-cyan-400 w-10 h-10"></i>
+                        <div class="flex space-x-3 text-slate-400">
+                            <a href="#" class="hover:text-white transition-colors"><i data-lucide="github" class="w-5 h-5"></i></a>
+                            <a href="#" class="hover:text-white transition-colors"><i data-lucide="external-link" class="w-5 h-5"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-2">Base de Datos de Ventas Automatizada</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Diseño conceptual y lógico de un modelo relacional para un e-commerce ficticio utilizando consultas complejas, triggers y procedimientos almacenados.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-400 mt-4">
+                    <span>SQL</span>
+                    <span>MySQL Workbench</span>
+                    <span>Linux Terminal</span>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 text-center">
+            <p class="text-sm text-slate-500">Nota: Reemplaza o complementa estos proyectos con los repositorios que vayas creando en tus laboratorios de SENATI.</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-800 text-center">
+        <h3 class="text-3xl font-extrabold text-white mb-4">¿Listo para trabajar juntos?</h3>
+        <p class="max-w-md mx-auto text-slate-400 text-base mb-10">
+            Estoy disponible de inmediato para iniciar prácticas profesionales. Si te interesa mi perfil, no dudes en escribirme o llamarme.
+        </p>
+        
+        <div class="inline-flex flex-col sm:flex-row gap-6 justify-center items-center bg-slate-800/30 p-6 rounded-2xl border border-slate-800/60">
+            <a href="mailto:adolfo.fca.04@outlook.com" class="flex items-center gap-3 text-slate-300 hover:text-cyan-400 transition-colors group">
+                <i data-lucide="mail" class="w-5 h-5 text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                <span>adolfo.fca.04@outlook.com</span>
+            </a>
+            <div class="hidden sm:block w-px h-6 bg-slate-700"></div>
+            <a href="tel:+51930366535" class="flex items-center gap-3 text-slate-300 hover:text-cyan-400 transition-colors group">
+                <i data-lucide="phone" class="w-5 h-5 text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                <span>+51 930 366 535</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-slate-800/60 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p>© 2026 Adolfo Cancho. Desarrollado con HTML, Tailwind y Git.</p>
+        <div class="flex space-x-4">
+            <a href="https://github.com" target="_blank" class="hover:text-slate-300 transition-colors">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" class="hover:text-slate-300 transition-colors">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- Script para inicializar los iconos de Lucide -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
